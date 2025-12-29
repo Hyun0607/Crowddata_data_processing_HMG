@@ -52,10 +52,8 @@ __pypackages__/
 # 데이터 파일 (CSV, JSON 등)
 *.csv
 *.json
-!결과데이터_템플릿.xml
 *_result/
 *.xml
-!결과데이터_템플릿.xml
 
 # 로그 파일
 *.log

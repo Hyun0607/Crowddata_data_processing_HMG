@@ -1,0 +1,82 @@
+# 환경 변수 파일
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 가상환경
+venv/
+ENV/
+env/
+.venv/
+
+# UV (Python 패키지 관리자)
+.uv/
+__pypackages__/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 데이터 파일 (CSV, JSON 등)
+*.csv
+*.json
+!결과데이터_템플릿.xml
+*_result/
+*.xml
+!결과데이터_템플릿.xml
+
+# 로그 파일
+*.log
+logs/
+
+# 임시 파일
+*.tmp
+*.bak
+*.backup
+temp/
+tmp/
+
+# Google Cloud 인증 파일
+*.json
+*-key.json
+credentials.json
+service-account-key.json
+
+# 프로젝트별 폴더 (숫자_로 시작하는 폴더)
+[0-9]*_*/
+
+# BigQuery 결과 파일
+bquxjob*.csv
+

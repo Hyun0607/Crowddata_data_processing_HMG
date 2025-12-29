@@ -1,0 +1,18 @@
+# 핵심 데이터 처리 라이브러리
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Google Cloud Platform
+google-cloud-storage>=2.10.0
+google-cloud-bigquery>=3.10.0
+
+# 환경 변수 관리
+python-dotenv>=1.0.0
+
+# 병렬 처리 (Python 표준 라이브러리에 포함되어 있지만 명시)
+# concurrent.futures (표준 라이브러리)
+
+# XML 처리 (Python 표준 라이브러리에 포함)
+# xml.etree.ElementTree (표준 라이브러리)
+# xml.dom.minidom (표준 라이브러리)
+

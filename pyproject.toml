@@ -1,0 +1,19 @@
+[project]
+name = "Data_processing"
+version = "0.1.0"
+description = "따뜻한하루 - 데이터 처리 파이프라인"
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "google-cloud-storage>=2.10.0",
+    "google-cloud-bigquery>=3.10.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+# 이 프로젝트는 스크립트 모음이므로 빌드 시스템 불필요
+
+[tool.uv.dependency-groups]
+dev = []
+
